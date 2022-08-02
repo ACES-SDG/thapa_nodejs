@@ -30,4 +30,7 @@ const fs =require('fs');
 
 // console.log(org_data)
 
-fs.renameSync('read.txt','write.txt')
+// fs.renameSync('read.txt','write.txt')
+
+// file encoding
+
