@@ -12,7 +12,7 @@
 // const name_ ='me ';
 // console.log(name_)
 
-const fs =require('fs');
+// const fs =require('fs');
 
 // fs.writeFileSync('read.txt','welcome to node js')
 
@@ -34,3 +34,113 @@ const fs =require('fs');
 
 // file encoding
 
+// Diff between NULL vs Undefined 
+
+// var iAmuseless = null;
+// // console.log(iAmuseless)
+// console.log(typeof(iAmuseless))
+
+
+
+// var iAmstandby ;
+// // console.log(iAmstandby)    // undefien is also a data type
+// console.log(typeof(iAmstandby))
+
+
+//  what is NaN 
+
+// NaN is a property of global object
+//  the initial value of NaN is Not  a Number 
+
+// var myPhoneNumber = 5348645135;
+// var myname = ' mazhar'
+
+// console.log(isNaN(myPhoneNumber))
+
+// console.log(isNaN(myname))
+
+
+
+
+
+//              Expressions ansd Opereators
+
+//  5 + 20   
+//          operend operrator
+
+// we know all rest operrators 
+
+// discuss about the increment and decrement opoerator
+
+// //  i++ , ++i , i--, --i
+
+// //  postfix and prefix
+
+// var x= 15;
+// var newX= x++;
+// console.log(x);
+// console.log(newX);
+
+
+// var x= 14;
+// var bnew = ++x;
+// console.log(x);
+// console.log(bnew)
+
+
+//    comparision operator assignement operator Less then or equal to operator and greater than or equal operator 
+//      logical operator &&(logical AND ) ||(logical OR) !  (logical NOT)
+
+
+//  if else condiional operator in one line 
+// var age=15;
+// console.log((age>= 19)?'ok':'no');
+
+
+//  Switch Statements
+
+// swtich statement without break statement
+
+// area_ = 'Circle'
+
+// switch(area_){
+//     case 'Circle':
+//         console.log('the area of circle is');
+//     case 'Triangle':
+//         console.log('area of triangle' );
+//     default:
+//         console.log('defsult')
+// }
+
+//      Switch statement with break keyword as well,
+
+
+// area_ = 'Triangle'
+
+// switch(area_){
+//     case 'Circle':
+//         console.log('the area of circle is');
+//         break
+//     case 'Triangle':
+//         console.log('area of triangle' );
+//         break
+//     default:
+//         console.log('defsult')
+//         break
+// }
+
+//  while loop and do while loop,
+// var num= 0;
+
+// while(num<=10){
+//     console.log(num);
+//     num++;
+// }
+
+// do while loop
+var num= 0;
+do{
+    console.log(num);
+    num++;
+}
+while(num<=10);
