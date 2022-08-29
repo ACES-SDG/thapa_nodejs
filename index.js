@@ -137,10 +137,114 @@
 //     num++;
 // }
 
-// do while loop
-var num= 0;
-do{
-    console.log(num);
-    num++;
+// // do while loop
+// var num= 0;
+// do{
+//     console.log(num);
+//     num++;
+// }
+// while(num<=10);
+
+
+//  for loop statement.
+// for(var num = 0; num<=10;num++){
+//     console.log(num);
+// }
+
+// Functions in javascript 
+
+// var a=10;
+// var b=20;
+// var sum= a+b;
+// console.log(sum);
+
+// function sum(){
+//     var b=20, a=10;
+//     var total= a+b;
+//     console.log(total);
+// }
+
+// sum()
+
+// diff btw func params and arguments
+
+// function sum(a,b){
+//         var total= a+b;
+//         console.log(total);
+//     }
+// sum(20,40);
+
+//  what is function expression
+
+
+// function sum(a,b){
+//         var total= a+b;
+//         console.log(total);
+//     }
+
+// var funcexp =sum(2,45);
+
+// console.log(funcexp)
+
+//  return keyword
+
+// function sum(a,b){
+//     return total= a+b;
+// }
+
+// var funcexp =sum(2,45);
+
+// console.log(funcexp)
+
+// Anonymus fucntions
+
+// var funExp = function (a,b){
+//     return total = a+b ;
+// }
+
+// console.log(funExp(5,6))
+
+
+/***        ECMA SCRIPT 
+ * 
+    let and const 
+    template strings
+    default arguments
+    rest operators
+    destructuring
+    object properties
+    arrow functions
+    spread operators
+    
+* ***/
+
+// LET vs CONST vs VAR 
+
+// var ==== functions scope
+// const ==== block scope and constant variable cant be change.
+// let ==== block scope
+
+// function func(){
+//      var name ='okname';
+//      console.log(name);
+
+//      if (true){
+//         var my_name = 'mazhar';
+//         console.log(name);
+//         console.log(my_name)
+//      }
+// }
+
+function func(){
+    let name ='okname';
+    console.log(name);
+
+    if (true){
+       let my_name = 'mazhar';
+       console.log(name);
+       console.log(my_name)
+    }
+    // console.log(my_name)   // error will come here
 }
-while(num<=10);
+
+func()
